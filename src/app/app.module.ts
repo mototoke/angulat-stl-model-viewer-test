@@ -3,12 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { StlModelViewerModule } from 'angular-stl-model-viewer'
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    StlModelViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
